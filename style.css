@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body section {
+    background-color: black;
+    height: 100vh;
+}
+
+.conteiner {
+    max-width: 80%;
+    margin: 15px auto;
+}
+
+/* header start */
+.header {
+    width: 100px;
+    height: 136px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+}
+
+.header-top ul li a {
+    color: #fff;
+}
+
+.header-top nav ul {
+    display: flex;
+    margin: left 15px;
+    justify-content: space-between;
+}
+
+.header-top nav ul li {
+    margin-left: 15px;
+    display: flex;
+}
+
+.login-register ul {
+    display: flex;
+}
+
+.login-register ul li {
+    display: flex;
+    margin-right: 15px;
+}
+
+/* header-buttom */
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bottom-left a img {
+    width: 355px;
+    height: 70px;
+}
+
+.header-bottom-right ul li a {
+    color: #fff;
+}
+
+.header-bottom-right nav ul {
+    display: flex;
+}
+
+.header-bottom-right nav ul li {
+    margin: 20px;
+}
+
+/* header end */
+/* section-1 start */
+.main {
+    padding-top: 100px;
+    display: flex;
+    width: 100%;
+}
+
+.container .section-1 .main .complain {
+    width: 700px;
+    height: 200px;
+}
+
+.main .complain h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+section .container {
+    max-width: 80%;
+    margin: 15px auto;
+}
+.container .section-1 .main .complain-image{
+
+}
+
+
+
+
+/* section-1 end */
